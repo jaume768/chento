@@ -17,7 +17,7 @@ function Navbar(){
             </div>
             <div className={`navbar-links ${isOpen ? 'open' : ''}`}>
               <a href="/">Inicio</a>
-              <a href="/carta">Carta</a>
+              <a href="#/carta">Carta</a>
               <a href="#">Contacto</a>
             </div>
         </nav>
