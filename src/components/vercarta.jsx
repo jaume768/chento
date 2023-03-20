@@ -1,0 +1,8 @@
+
+function VerCarta(){
+    return (
+        <a href="#" className="btn-ver-carta">Ver carta</a>
+    )
+}
+
+export default VerCarta

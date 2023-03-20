@@ -1,0 +1,27 @@
+.footer {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-md-6 {
+    max-width: 50%;
+}
+
+.copywright {
+    font-size: 1rem;
+    text-align: center;
+}
