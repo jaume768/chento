@@ -6,7 +6,7 @@ import Carta from './components/carta/carta';
 
 const routes = (
   <Routes>
-    <Route path="/" element={<Body />} />
+    <Route exact path="/" element={<Body />} />
     <Route path="/carta" element={<Carta />} />
   </Routes>
 );
