@@ -38,13 +38,48 @@ video {
     background-image: url('https://cdn.glitch.global/80835a8d-bc40-4dc6-a2c9-443c37603011/fondo.jpg?v=1678802041233');
     background-repeat: repeat;
     background-image: cross-fade(1);
+    color: white;
     text-align: center;
+}
+
+
+.productos{
+    width: 100%;
+}
+
+.carta{
+    background-image: url('https://cdn.glitch.global/80835a8d-bc40-4dc6-a2c9-443c37603011/fondo.jpg?v=1678802041233');
+    background-repeat: repeat;
+    background-image: cross-fade(1);
     color: white;
 }
 
-.principal {
-    padding-top: 40px;
+.carta h1{
+    text-align: center;
 }
+
+.prova{
+    display: flex;
+    margin-left: 38%;
+}
+
+.producto-nombre{
+    text-align: left;
+    font-size: 22px;
+    color: #ffbf00;;
+    width: 400px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    color: #ffbf00;;
+    text-align: right;
+}
+
+.producto-descripcion{
+    margin-left: 38%;
+}
+
 
 .btn-ver-carta {
     border-width: 3px;
@@ -106,6 +141,29 @@ video {
 }
 
 @media (max-width: 768px) {  
+
+    .carta{
+        background-image: url('https://cdn.glitch.global/80835a8d-bc40-4dc6-a2c9-443c37603011/Captura.PNG?v=1678803585404');
+        background-repeat: repeat;
+        background-size: 100%;
+    }
+
+    .prova{
+        margin-left: 14%;
+    }
+    
+    .producto-nombre{
+        width: 300px;
+    }
+    
+    .producto-precio{
+        text-align: right;
+        margin-right: 20px;
+    }
+    
+    .producto-descripcion{
+        margin-left: 14%;
+    }
 
     .inicio {
         background-size: auto 120%;

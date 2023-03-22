@@ -27,7 +27,7 @@ function Tarjeta({numTarjetas}){
                 <img src={fotos[i]} alt="" />
                 <div className="informacion">
                   <p>{descripciones[i]}</p>
-                  <a href="#">Ver más</a>
+                  <a href={"#/" + tipos[i].toLowerCase()}>Ver más</a>
                 </div>
             </div>
         )

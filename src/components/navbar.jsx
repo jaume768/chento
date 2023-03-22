@@ -9,7 +9,7 @@ function Navbar(){
     };        
     return(
         <nav className="navbar">
-            <div className="navbar-brand"><img src="https://cdn.glitch.global/80835a8d-bc40-4dc6-a2c9-443c37603011/logoChento.png?v=1678803599229" alt="" /></div>
+            <div className="navbar-brand"><a href="#/"><img src="https://cdn.glitch.global/80835a8d-bc40-4dc6-a2c9-443c37603011/logoChento.png?v=1678803599229" alt="" /></a></div>
             <div className="navbar-toggle" onClick={handleMenuClick}>
               <span></span>
               <span></span>
