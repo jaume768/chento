@@ -1,5 +1,5 @@
 
-import '../carrusel.css'
+import './carrusel.css'
 import people from './data';
 
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';

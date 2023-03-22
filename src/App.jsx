@@ -1,6 +1,6 @@
-import Navbar from './components/navbar';
+import Navbar from './components/navbar/navbar';
 import Inicio from './components/inicio';
-import Footer from './components/footer';
+import Footer from './components/footer/footer';
 import { routes } from './routes';
 
 function App() {

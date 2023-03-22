@@ -1,7 +1,7 @@
 
 import VerCarta from './vercarta';
-import Tarjeta from './tarjeta';
-import Review from './carrusel';
+import Tarjeta from './tarjetas/tarjeta';
+import Review from './carrusel/carrusel';
 import ContactInfo from './visitanos';
 
 function Body (){

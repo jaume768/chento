@@ -1,4 +1,4 @@
-import '../tarjetastyle.css'
+import './tarjetastyle.css'
 
 function Tarjeta({numTarjetas}){
     let tarjetas = []
