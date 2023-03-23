@@ -4,7 +4,7 @@ function Tarjeta({numTarjetas}){
     let tarjetas = []
     
     let tipos = ["PASTAS",
-                "EMPANADAS",
+                "ENTRANTES",
                 "PIZZAS",
                 "POSTRES"]
 
