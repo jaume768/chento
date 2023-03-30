@@ -58,6 +58,10 @@ video {
     text-align: center;
 }
 
+.principal h1{
+    padding-top: 15px;
+}
+
 .prova{
     display: flex;
     margin-left: 38%;
@@ -80,6 +84,10 @@ video {
     margin-left: 38%;
 }
 
+.carta h1{
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
 
 .btn-ver-carta {
     border-width: 3px;
@@ -93,6 +101,31 @@ video {
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.pedido{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.btn-hacer-pedido {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ffbf00;
+    color: #ffbf00;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-hacer-pedido:hover {
+    background-color: #ffaa0095;
+    color: #fff;
 }
   
 .btn-ver-carta:hover {

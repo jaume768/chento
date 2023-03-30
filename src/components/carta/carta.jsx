@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import VerCarta from '../vercarta';
 
 function Carta(props){
   
@@ -23,7 +24,7 @@ function Carta(props){
 
   return (
     <div className='carta'>
-       <h1>{props.tipo === "carta" ? "CARTA" : tipoCarta.toUpperCase()}</h1>
+       <h1 className='titulo-carta'>{props.tipo === "carta" ? "CARTA" : tipoCarta.toUpperCase()}</h1>
       <div className='productos'>
         {data.map((item, index) => {
           const showHeader = prevTipoRef.current !== item.tipo;
@@ -40,6 +41,9 @@ function Carta(props){
             </div>
           );
         })}
+      </div>
+      <div className='pedido'>
+        <a href="tel:971843421" className="btn-hacer-pedido">Hacer pedido</a>
       </div>
     </div>
   );
